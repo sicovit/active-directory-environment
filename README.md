@@ -3,7 +3,7 @@
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
 
-<h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
+<h1>Active Directory Domain Services Hosted in Microsoft Azure</h1>
 This project walks you through creating an Active Directory domain controller and DNS services using Azure VMs to mimic a typical office network.<br />
 
 
