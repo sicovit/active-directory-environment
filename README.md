@@ -31,7 +31,7 @@ This project walks you through creating an Active Directory domain controller an
 <h2>Deployment and Configuration Steps</h2>
 
 <p>
-<img src="https://github.com/user-attachments/assets/78a137a1-2a88-4670-8319-c9d18ae059f7" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/user-attachments/assets/7903b8c1-cb50-4453-aeb5-315175dee704" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Connect to the VM using Remote Desktop (RDP) from your local machine. Open Server Manager, click on Add roles and features, and follow the wizard. Select Active Directory Domain Services and include the required features. Finish the wizard and allow the server to install the necessary components.
