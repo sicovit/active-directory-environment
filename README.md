@@ -34,7 +34,7 @@ This project walks you through creating an Active Directory domain controller an
 <img src="https://github.com/user-attachments/assets/78a137a1-2a88-4670-8319-c9d18ae059f7" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Connect to the VM using Remote Desktop (RDP) from your local machine. Open Server Manager, click on Add roles and features, and follow the wizard. Select Active Directory Domain Services and include the required features. Finish the wizard and allow the server to install the necessary components.
 </p>
 <br />
 
@@ -42,7 +42,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://github.com/user-attachments/assets/cd4a0adf-aeed-4efa-9d74-440d9444f48f" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In Server Manager, you'll see a flag icon with a notification to promote the server. Click the notification and choose to add a new forest, then enter your domain name (e.g., corp.local). Select the option to install DNS, set a password for Directory Services Restore Mode, and proceed with the default settings. After the configuration is applied, the server will automatically restart.
 </p>
 <br />
 
@@ -50,6 +50,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <img src="https://github.com/user-attachments/assets/89db3be0-4d3c-41ef-860c-7059f768f40c" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  After rebooting, open Server Manager > Tools, and check both Active Directory Users and Computers and DNS Manager to confirm your domain and DNS zones were created. If you’ve created a new domain user (in Active Directory Users and Computers), you can now use that account to join another VM to the domain. On a second VM in the same virtual network, open System Properties, click Change, select Domain, and enter the domain name. When prompted, enter the domain user's credentials — successful domain joining confirms that both AD and DNS are functioning properly.
+</p>
 </p>
 <br />
