@@ -4,16 +4,13 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
+This project walks you through creating an Active Directory domain controller and DNS services using Azure VMs to mimic a typical office network.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure
 - Remote Desktop
 - Active Directory Domain Services
 - PowerShell
